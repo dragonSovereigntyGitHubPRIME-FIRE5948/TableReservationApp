@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Table Reservation App2</string>
+
+    <string name="companyName">Donut Trump</string>
+    <string name="subHeader">Reservation Application</string>
+
+    <string name="enterName">Enter Name</string>
+    <string name="name">Name</string>
+    <string name="number">Mobile Number</string>
+    <string name="enterNumber">Enter Number</string>
+    <string name="pax">No. of Pax</string>
+    <string name="enterPax">Enter No. of Pax</string>
+
+
+
+    <string name="select">Select</string>
+    <string name="selected">Selected</string>
+
+    <string name="location1">J Cube</string>
+    <string name="location2">Northpoint</string>
+    <string name="location3">Sun Plaze</string>
+    <string name="location4">Bugis+</string>
+    <string name="location5">Junction 8</string>
+
+
+
+
+
+</resources>
