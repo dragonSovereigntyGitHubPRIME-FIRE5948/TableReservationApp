@@ -4,11 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/custom_toast.xml" value="0.219" />
+        <entry key="app/src/main/res/drawable/divider_donuttrump.xml" value="0.219" />
         <entry key="app/src/main/res/drawable/reset_button_donutrump.xml" value="0.219" />
         <entry key="app/src/main/res/drawable/text_view_borders.xml" value="0.14177703857421875" />
         <entry key="app/src/main/res/drawable/textview_borders.xml" value="0.179156494140625" />
         <entry key="app/src/main/res/drawable/toggle_button_donuttrump.xml" value="0.219" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.17256011962890622" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19454803466796877" />
         <entry key="app/src/main/res/layout/custom_toast.xml" value="0.21302083333333333" />
         <entry key="app/src/main/res/layout/reset_button_donuttrump.xml" value="0.21302083333333333" />
       </map>

@@ -67,7 +67,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="5dp"
                 android:layout_marginLeft="15dp"
-                android:background="@drawable/text_view_borders"/>
+                android:background="@drawable/divider_donuttrump"/>
 
             <TextView
                 android:id="@+id/textview"
@@ -77,7 +77,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center"
                 android:text="@string/name"
-                android:textColor="@color/donuttrump_pink"
+                android:textColor="@color/donuttrump_blue"
                 android:textSize="20sp" />
 
             <EditText
@@ -101,7 +101,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:textSize="20sp"
                 android:gravity="center"
-                android:textColor="@color/donuttrump_pink"
+                android:textColor="@color/donuttrump_blue"
                 android:text="@string/number" />
 
             <EditText
@@ -125,7 +125,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:textSize="20sp"
                 android:gravity="center"
-                android:textColor="@color/donuttrump_pink"
+                android:textColor="@color/donuttrump_blue"
                 android:text="@string/pax" />
 
             <EditText
@@ -148,7 +148,7 @@
                 android:textSize="5dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginLeft="15dp"
-                android:background="@drawable/text_view_borders"/>
+                android:background="@drawable/divider_donuttrump"/>
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -174,7 +174,7 @@
                             android:paddingTop="25dp"
                             android:paddingLeft="100dp"
                             android:text="Date"
-                            android:textColor="@color/donuttrump_pink"
+                            android:textColor="@color/donuttrump_blue"
                             android:textSize="20sp" />
 
                         <TextView
@@ -186,7 +186,7 @@
                             android:paddingLeft="220dp"
                             android:paddingTop="25dp"
                             android:text="Time"
-                            android:textColor="@color/donuttrump_pink"
+                            android:textColor="@color/donuttrump_blue"
                             android:textSize="20sp" />
 
                     </LinearLayout>
@@ -203,7 +203,7 @@
                             android:textSize="5dp"
                             android:layout_marginTop="5dp"
                             android:layout_marginLeft="15dp"
-                            android:background="@drawable/text_view_borders"/>
+                            android:background="@drawable/divider_donuttrump"/>
                     </LinearLayout>
 
                     <LinearLayout
@@ -235,8 +235,7 @@
                 android:textSize="5dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginLeft="15dp"
-                android:background="@drawable/text_view_borders"/>
-
+                android:background="@drawable/divider_donuttrump"/>
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
@@ -246,7 +245,7 @@
                 android:paddingTop="25dp"
                 android:paddingBottom="5dp"
                 android:text="Location"
-                android:textColor="@color/donuttrump_pink"
+                android:textColor="@color/donuttrump_blue"
                 android:textSize="20sp" />
 
             <TextView
@@ -296,6 +295,7 @@
                             android:gravity="center"
                             android:textOff="@string/select"
                             android:textOn="@string/selected"
+                            android:textColor="@color/white"
                             android:background="@drawable/toggle_button_donuttrump"/>
                     </LinearLayout>
 
@@ -329,6 +329,7 @@
                             android:gravity="center"
                             android:textOff="@string/select"
                             android:textOn="@string/selected"
+                            android:textColor="@color/white"
                             android:background="@drawable/toggle_button_donuttrump"/>
                     </LinearLayout>
 
@@ -362,6 +363,7 @@
                             android:gravity="center"
                             android:textOff="@string/select"
                             android:textOn="@string/selected"
+                            android:textColor="@color/white"
                             android:background="@drawable/toggle_button_donuttrump"/>
                     </LinearLayout>
 
@@ -395,6 +397,7 @@
                             android:gravity="center"
                             android:textOff="@string/select"
                             android:textOn="@string/selected"
+                            android:textColor="@color/white"
                             android:background="@drawable/toggle_button_donuttrump"/>
 
                     </LinearLayout>
@@ -428,6 +431,7 @@
                             android:gravity="center"
                             android:textOff="@string/select"
                             android:textOn="@string/selected"
+                            android:textColor="@color/white"
                             android:background="@drawable/toggle_button_donuttrump"
                             />
                     </LinearLayout>
@@ -442,29 +446,38 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="15dp"
-                android:background="@drawable/text_view_borders"/>
+                android:background="@drawable/divider_donuttrump"/>
 
             <CheckBox
                 android:id="@+id/smoking"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
+                android:textColor="@color/donuttrump_blue"
                 android:text="Smoking Area"
                 android:textSize="18sp" />
 
-            <Button
-                android:id="@+id/enter"
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/donuttrump_pink"
-                android:text="Enter" />
+                android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/reset"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/donuttrump_pink"
-                android:text="Reset" />
+                <Button
+                    android:id="@+id/enter"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/donuttrump_pink"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="30dp"
+                    android:text="Enter" />
+
+                <Button
+                    android:id="@+id/reset"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/donuttrump_pink"
+                    android:text="Reset" />
+            </LinearLayout>
 
         </LinearLayout>
     </ScrollView>

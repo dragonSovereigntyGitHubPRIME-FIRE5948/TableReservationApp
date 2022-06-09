@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.Gravity;
+import android.view.Gr-avity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
@@ -57,6 +57,9 @@ public class MainActivity extends AppCompatActivity {
         toggleLocation3 = findViewById(R.id.location3);
         toggleLocation4 = findViewById(R.id.location4);
         toggleLocation5 = findViewById(R.id.location5);
+
+        pickerDatePicker.setMaxDate(System.currentTimeMillis());
+
 
         pickerDatePicker.updateDate(2020, 6, 1);
         pickerTimePicker.setHour(19);
